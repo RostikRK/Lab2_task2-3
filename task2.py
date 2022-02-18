@@ -19,6 +19,9 @@ def reading_dict(path):
 
 
 def navigation_trough_json(data):
+    """
+    Navigates the user though the json file
+    """
     print("Now starts a navigation trough the twitter timeline json file. To start please select information about which post you want to get. Totally our program normally reads", len(data), "posts. (to change this setting change the variable count in twitter1.py) The numeration is from the newest to oldest.")
     while True:
         try:
